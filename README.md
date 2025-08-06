@@ -1,9 +1,19 @@
 # tz-intertrans
-A simple timezone conversion tool written in Rust to help coordinate inter-timezone communications.
+A simple timezone conversion script written in Bash to help coordinate inter-timezone communications.
+
+## Using this script
+Use a unix-like operating system, such as Linux, MacOS, or WSL on Windows.
+Make sure you have the following dependencies:
+1. `date`
+2. `fzf` (optional)
+
+1. Clone this repository and cd into it
+2. Make sure main.sh is executable; use `chmod +x main.sh` if not
+3. `./main.sh`; there will be an interactive interface
 
 ## Features/TODO
 - [ ] input time in localtime/UTC/TZ -> output multiple timezones' times
-- [ ] toml configuration file for automatic output timezones
+- [ ] basic configuration for 
 - [ ] cli interface for calling
 
 ## Contributing
