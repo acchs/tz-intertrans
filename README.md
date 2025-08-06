@@ -7,6 +7,8 @@ Make sure you have the following dependencies:
 1. `date`
 2. `fzf` (optional)
 
+To run, do the following:
+
 1. Clone this repository and cd into it
 2. Make sure main.sh is executable; use `chmod +x main.sh` if not
 3. `./main.sh`; there will be an interactive interface
